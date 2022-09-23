@@ -20,6 +20,7 @@ import Greeting from './components/Greeting';
 import Box from './components/Box';
 const App = () => {
   const name = 'JSX';
+  const name = 'JSXss';
   return (
     <SafeAreaView>
       <Greeting name={name} />
